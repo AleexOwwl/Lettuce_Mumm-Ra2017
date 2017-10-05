@@ -17,4 +17,4 @@ def dado_que_ingreso_la_edad_group1(step, num1):
 @step(u'entonces obtengo el resultado "([^"]*)"')
 def entonces_obtengo_el_resultado_group1(step, esperado):
     obtenido = world.edades.obtener_resultado()
-    assert esperado == obtenido, 'Esperado '+esperado+" Obtenido "+obtenido
+    assert esperado == obtenido
